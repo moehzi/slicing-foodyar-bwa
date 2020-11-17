@@ -1,0 +1,28 @@
+@import 'mixin';
+
+header {
+	@include flexbox(row, center);
+	align-items: center;
+	margin-top: 100px;
+	padding: 0 145px;
+
+	.txt-heading {
+		h1 {
+			position: relative;
+			@include h1();
+
+			span.garis {
+				@include garis(77px, 8px, 48);
+			}
+
+			span.garis1 {
+				@include garis(212px, 8px, 118);
+				right: 120;
+			}
+		}
+
+		p {
+			@include p();
+		}
+	}
+}

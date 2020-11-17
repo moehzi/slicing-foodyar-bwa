@@ -50,11 +50,63 @@ nav ul li a span.active {
   height: 4px;
   background-color: #FBE0DC;
   width: 53px;
-  font-weight: 500;
   position: absolute;
   bottom: 4;
   z-index: -1;
   border-radius: 100px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  padding: 0 145px;
+}
+
+header .txt-heading h1 {
+  position: relative;
+  font-size: 46px;
+  line-height: 70px;
+  color: #272042;
+}
+
+header .txt-heading h1 span.garis {
+  width: 77px;
+  height: 8px;
+  background-color: #FBE0DC;
+  position: absolute;
+  top: 48;
+  border-radius: 100px;
+  z-index: -1;
+}
+
+header .txt-heading h1 span.garis1 {
+  width: 212px;
+  height: 8px;
+  background-color: #FBE0DC;
+  position: absolute;
+  top: 118;
+  border-radius: 100px;
+  z-index: -1;
+  right: 120;
+}
+
+header .txt-heading p {
+  font-size: 20px;
+  line-height: 34px;
+  color: #8B8BA5;
+  margin: 10px 0 40px 0;
 }
 
 * {
