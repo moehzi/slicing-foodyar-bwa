@@ -70,7 +70,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 100px;
+  margin: 100px 0 100px 0;
   padding: 0 145px;
 }
 
@@ -79,6 +79,7 @@ header .txt-heading h1 {
   font-size: 46px;
   line-height: 70px;
   color: #272042;
+  font-weight: 700;
 }
 
 header .txt-heading h1 span.garis {
@@ -107,6 +108,140 @@ header .txt-heading p {
   line-height: 34px;
   color: #8B8BA5;
   margin: 10px 0 40px 0;
+}
+
+.watch-now {
+  padding: 0 100px 0 100px;
+}
+
+.watch-now p {
+  text-align: center;
+  font-size: 20px;
+  color: #8B8BA5;
+  margin-bottom: 10px;
+}
+
+.watch-now h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.watch-now ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.watch-now ul li {
+  margin-right: 50px;
+}
+
+.watch-now ul li a.active-item {
+  color: #F7C531;
+  font-weight: 500;
+  position: relative;
+}
+
+.watch-now ul li a.active-item span.garis-kuning {
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background-color: #F7C531;
+  bottom: -10;
+  left: 15;
+}
+
+.watch-now ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #272042;
+  text-decoration: none;
+}
+
+.watch-now .row-food {
+  margin-bottom: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.watch-now .row-food h4 {
+  font-size: 22px;
+  color: #272042;
+}
+
+.watch-now .row-food p {
+  font-size: 16px;
+  margin: 8px 0 12px 0;
+}
+
+.testi {
+  margin: 0 305px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testi p.quotes {
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.testi .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.testi .profile img {
+  margin-right: 24px;
+}
+
+.testi .kutip {
+  position: absolute;
+  z-index: -1;
+  left: -100;
+  top: -70;
 }
 
 * {

@@ -3,7 +3,7 @@
 header {
 	@include flexbox(row, center);
 	align-items: center;
-	margin-top: 100px;
+	margin: 100px 0 100px 0;
 	padding: 0 145px;
 
 	.txt-heading {

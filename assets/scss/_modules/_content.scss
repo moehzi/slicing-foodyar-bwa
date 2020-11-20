@@ -1,0 +1,100 @@
+@import 'mixin';
+$secondaryColor :#272042;
+
+.watch-now {
+	padding: 0 100px 0 100px;
+
+	p {
+		text-align: center;
+		font-size: 20px;
+		color: #8B8BA5;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 700;
+
+	}
+
+	ul {
+		@include flexbox(row, center);
+		margin: 30px 0 50px 0;
+
+
+		li {
+			margin-right: 50px;
+
+			a.active-item {
+				color: #F7C531;
+				font-weight: 500;
+				position: relative;
+
+				span.garis-kuning {
+					position: absolute;
+					width: 80px;
+					height: 2px;
+					background-color: #F7C531;
+					bottom: -10;
+					left: 15;
+				}
+			}
+
+			a {
+				font-size: 20px;
+				font-weight: 500;
+				color: $secondaryColor;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.row-food {
+		margin-bottom: 155px;
+		@include flexbox(row, space-between);
+		text-align: center;
+
+		h4 {
+			font-size: 22px;
+			color: $secondaryColor;
+		}
+
+		p {
+			font-size: 16px;
+			margin: 8px 0 12px 0;
+		}
+	}
+}
+
+.testi {
+	margin: 0 305px;
+	position: relative;
+
+	@include flexbox(column, center);
+	align-items: center;
+
+	p.quotes {
+		font-size: 36px;
+		line-height: 50px;
+		text-align: center;
+		;
+	}
+
+	.profile {
+		@include flexbox(row, start);
+		align-items: center;
+		margin-top: 20px;
+
+		img {
+			margin-right: 24px;
+		}
+	}
+
+	.kutip {
+		position: absolute;
+		z-index: -1;
+		left: -100;
+		top: -70;
+	}
+}
