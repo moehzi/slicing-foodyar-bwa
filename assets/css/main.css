@@ -237,6 +237,16 @@ header .txt-heading p {
   margin-right: 24px;
 }
 
+.testi .profile .info h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.testi .profile .info p {
+  font-size: 16px;
+  color: #8B8BA5;
+}
+
 .testi .kutip {
   position: absolute;
   z-index: -1;
