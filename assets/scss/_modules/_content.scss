@@ -114,12 +114,12 @@ $secondaryColor :#272042;
 }
 
 .row-stats {
-	margin-top: 100px;
-	@include flexbox(row, center);
+	@include flexbox(row, space-evenly);
 	align-items: center;
+	margin: 100px auto 0 auto;
+	width: 80%;
 
 	.card-stats {
-		margin-right: 100px;
 		@include flexbox(column, center);
 		align-items: center;
 

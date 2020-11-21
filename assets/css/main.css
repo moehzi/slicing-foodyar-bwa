@@ -255,7 +255,6 @@ header .txt-heading p {
 }
 
 .row-stats {
-  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,16 +262,17 @@ header .txt-heading p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 100px auto 0 auto;
+  width: 80%;
 }
 
 .row-stats .card-stats {
-  margin-right: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
