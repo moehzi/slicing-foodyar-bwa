@@ -137,3 +137,36 @@ $secondaryColor :#272042;
 
 	}
 }
+
+.banner {
+	@include flexbox(row-reverse, center);
+	align-items: center;
+	margin: 100px 0 100px 0;
+	padding: 0 200px;
+
+	.txt-heading {
+		margin-left: 150px;
+
+		h1 {
+			position: relative;
+			@include h1();
+
+			span.garis {
+				@include garis(225px, 8px, 48);
+			}
+
+			span.garis1 {
+				@include garis(254px, 8px, 118);
+				right: 10;
+			}
+		}
+
+		p {
+			@include p();
+		}
+
+		.download img {
+			margin-right: 20px;
+		}
+	}
+}
