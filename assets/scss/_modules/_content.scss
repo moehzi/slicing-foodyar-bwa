@@ -170,3 +170,27 @@ $secondaryColor :#272042;
 		}
 	}
 }
+
+footer {
+	@include flexbox(row, space-evenly);
+	margin-bottom: 144PX;
+
+	h3 {
+		font-size: 22px;
+		color: #272042;
+		font-weight: 500;
+		margin-bottom: 20PX;
+	}
+
+	ul {
+		li {
+			margin: 14px 0;
+
+			a {
+				font-size: 18px;
+				color: #8B8BA5;
+				text-decoration: none;
+			}
+		}
+	}
+}
